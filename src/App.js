@@ -39,7 +39,7 @@ function App(props) {
     else{
       if(!success && error ) {
         if(page === 1) setMovieList([]);
-        
+
         setIsFetching(false);
       }
     }
@@ -48,7 +48,7 @@ function App(props) {
   const getList = (keyword='Ant Man') => {
     const query = {
       params:{
-        apikey:'faf7e5bb',
+        apikey:'6e4df588',
         s:keyword,
         page
       }
